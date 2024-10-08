@@ -9,11 +9,7 @@ body {
 }
 
 body.light {
-	background: radial-gradient(
-		circle,
-		rgba(238, 174, 202, 1) 0%,
-		rgba(222, 208, 228, 1) 100%
-	);
+	background-color: #faf9f6;
 	color: #333;
 }
 
