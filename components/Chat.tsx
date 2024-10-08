@@ -117,6 +117,7 @@ export default function Chat({ theme, toggleTheme }: ChatProps) {
 							borderRadius: "12px",
 						},
 					}}
+					//make the textbox more round
 					placeholder="Type your message here..."
 					value={message}
 					onChange={(e) => setMessage(e.target.value)}
