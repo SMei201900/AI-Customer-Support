@@ -79,6 +79,7 @@ export default function Chat({ theme, toggleTheme }: ChatProps) {
 					maxHeight: "70vh",
 					borderRadius: "12px",
 				}}
+				//make display more round
 			>
 				<List>
 					{conversationHistory.split("\n").map((msg, idx) => (
